@@ -1,0 +1,81 @@
+﻿Cipők
+	BOX:
+		Lonsdale_box_shoes.jpg : márka lonsdale, tipús : férfi box cipő, ár 13k ft, szín: fekete ,
+		Lonsdale_box_boots.jpg : márka lonsdale, tipús:  férfi box csizma, ár 15k ft,szín: fekete ,
+		Lonsdale_white_box_shoes.jpg : márka: lonsdale, tipús : férfi box cipő, ár 11k ft,szín: fehér ,
+		Adidas_box_boots.jpg : márka Adidas, tipús férfi box csizma,ár 18k ft,szín: fekete ,
+		
+	FOOTBAL:
+		Adidas_footbal_shoes.jpg : márka Adidas tipús:férfi footbal cipő, ár 11k ft, szín: Grey/SolYellow
+		Adidas_predator_footbal_shoes.jpg : márka Adidas,tipús:férfi footbal cipő,ár 15,8k ft, szín : fekete
+		Adidas_predatorex_footbal_shoes.jpg : márka Adidas,tipús: férfi footbal cipő,ár 57kft,szín :black/white/red
+		Nike_indoor_footbal_shoes.jpg : márka NIke,tipús: férfi terem footbal cipő, ár: 37k, szín  : black/orange
+		Nike_Vision_footbal_shoes.jpg : márka Nike, tipús Férfi footbal cipő, ár: 77k, szín : white/black-laser crimson
+		Puma_footbal_shoes.jpg : márka : Puma, tipús : Férfi footbal cipő, ár: 25k, szín : Navy/Silver
+		Puma_future_footbal_shoes.jpg : márka : Puma, tipús : Férfi footbal cipő, ár:25k,szín : RedBlast/Blue
+	RUNNING:
+		Adidas_brown_running_shoes.jpg : márka : Adidas, tipús Férfi futó cipő, ár 15.4k, szín : Sand 
+		Nike_woman_running_shoes.jpg : márka : Nike tipús : női futó cipő, ár 34.7 k, szín Black/Pink
+		Puma_woman_running_shoes.jpg : márka : Puma, tipús : női futó cipő, ár 17.7k, szín Blue/purple
+		Mizuno_woman_running_shoes.jpg : márka : Mizuno, tipús : női futó cipő,ár 41.4k szín: Grey/white
+		Mizuno_running_shoes.jpg : márka : Mizuno, tipús : férfi futó cipő,ár 37.5k szín Black/silver
+	TENNIS
+		Adidas_white_tennis_shoes.jpg : márka : Adidas , tipús férfi tennis cipő,ár 26.6k szín white/green
+		Asics_tennis_shoes.jpg : márka: Asics, tipús : férfi tennis cipő : ár : 35.9k, szín Koi/white
+		Asics_women_tennis_shoes.jpg : márka : Asics, tipús : női tennis cipő : ár 27.6k szín white/Pink
+
+Nadrágok:
+	REGULAR:
+		Sondico_black_shorts.jpg : márka : Sondico, tipús : férfi rövidnadrág,ár :2.7k szín : black
+		Adidas_black_short.jpg : márka: Adidas tipús : férfi rövidnadrág, ár : 5.1k szín :fekete/fehér
+		Adidas_jersey_shorts.jpg : márka : Adidas tipús : férfi rövidnadrág, ár : 9.4k szín : Navy/White
+		Puma_woman_shorts.jpg : márka Puma, tipús : női rövidnadrág ár : 5.5k szín black
+		Nike_woman_black_shorts.jpg : márka Nike, tipús női rövidnadrág, ár 7.9k szín black
+	SWIM:
+		Firetrap_swim_shorts.jpg : márka Firetrap , tipús : férfi úszónadrág , ár :4.3k szín White/black
+		Firetrap_blue_swim_shorts.jpg : márka Fireptrap, tipús : férfi úszónadrág: ár 4.3k szín : darkblue
+		Nike_swim_shorts.jpg. : márka : Nike,  tipús: férfi úszónadrág, ár 6.9k szín: Brown
+		Hot_Tuna_Woman_Swim_Shorts.jpg : márka Hot tuna, tipús : női úszónadrág,ár 2.1k szín electric blue
+		Gul_bikini.jpg: márka: Gul, tipús : női bikini, ár 1.9k szín white/black
+	LONGSHORT:
+		Lonsdale_Longshort.jpg : márka Lonsdale, tipús férfi hosszú rövidnadrág, ár 4.3k szín : Grey
+		Columbia_longshort.jpg : márka Columbia, tipús férfi hosszú rövidnadrág ár 10.6k szín carbon
+	Training:
+		Adidas_training_pants.jpg : márka : Adidas, tipús: férfi tréning nadrág ár : 11k szín black
+		Londsdale_training_pants.jpg : márka Londsdale tipús férfi tréning nadrág ár : 4.3k szín grey
+		Slazenger_training_pants.jpg : márka Slazenger tipús férfi tréning nadrág ár :4.3k szín black
+		Adidas_Woman_training_pants.jpg : márka Adidas, tipús női tréning nadrág ár : 13.8k szín black/white
+		Karrimor_woman_trainig_pants.jpg : márka Karrimor, tipús női tréning ruha, ár 7.9k szín black
+		Karrimor_brown_woman_training_pants.jpg márka Karrimor,tipús női tréning ruha , ár :7.9k szín brown
+Felsők
+	SHIRTS
+		Kappa_black_shirt : márka Kappa, tipús : férfi poló ár: 1.5k, szín black
+		Hot_Tuna_black_shirt.jpg : márka Hot Tuna, tipús férfi poló, ár 2.3k szín black
+		Adidas_blue_shirt.jpg : márka Adidas, tipús férfi poló, ár 5.9k szín navy/white
+		Nike_black_shirt.jpg : márka Adidas, tipús férfi poló, ár 5.5k szín black/white
+		La_Gear_woman_shirt.jpg : márka La Gear, tipús női poló, ár 1.7k szín grey
+		Adidas_woman_shirt.jpg : márka Adidas, tipús női poló, ár 7.1k szín black/white
+	Sweaters
+		Lee_Cooper_sweater.jpg: márka Lee cooper tipús: férfi pulóver ár 3.5k szín black/white
+		Pierre_cardin_sweater.jpg : márka Pierre cardin tipús: férfi pulóver ár 2.7k szín black
+		Slazenger_blue_sweater.jpg : márka Slazenger tipús férfi pulóver ár 2.7k szín blue
+		Karrimor_sweater.jpg : márka Karrimor tipús férfi pulóver, ár 4.1k szín charcoal
+		Gelert_woman_sweater.jpg : márka Gelert, tipús : női pulóver, ár 3.1k szín black
+		Karrimor_purple_woman_sweater.jpg márka: Karrimor, tipús : női pulóver, ár 3.9k szín purple
+
+Kesztyűk
+	BOX
+		Everleast_box_gloves.jpg márka: Everleast tipús box kesztyű, ár 9.2k szín blue
+		Everleast_marble_box_gloves.jpg: márka: Everleast tipús box kesztyű, ár 10.2k szín black/red
+		Spartan_box_gloves.jpg : márka: Spartan tipús box kesztyű, ár 9.2k szín black/red
+		Spartan_full_contact_box_gloves.jpg :  márka: Spartan tipús box kesztyű, ár 8.9k szín black/red
+	TRAINING
+		Everleast_training_gloves.jpg : márka Everleast,tipús férfi training kesztyű, ár 9.6k szín blue
+		Everleast_woman_training_gloves.jpg : márka Everleast,tipús női training kesztyű, ár 9.6k szín pink
+		Everleast_pro_sytle_gloves.jpg : márka Everleast,tipús férfi training kesztyű, ár 9.6k szín black
+		Spartan_training_gloves.jpg : márka: Spartan tipús training kesztyű, ár 6.2k szín red
+	GRAPLING
+		Everleast_grapling_gloves.jpg : márka Everleast,tipús  grapling kesztyű, ár 6.4k szín black
+
+	
+

@@ -1,0 +1,426 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+.button_on_index {
+    border: none;
+    border-left-style: solid;
+    border-left-width: 3px;
+    text-align: center;
+    width: 100%;
+    border-color: black;
+    background-color: white;
+    margin-top: 13px;
+    margin-left: 40px;
+    margin-right:50px;
+    outline-style: none
+}
+.button_on_index:hover{
+    color: #00FFFF
+}
+.button_on_index:focus{
+    outline:none;
+}
+
+.first_button_on_index {
+    border: none;
+    text-align: center;
+    width: 15%;
+    background-color: white;
+    margin-top: 13px;
+    margin-right: 40px;
+    outline: none
+}
+.first_button_on_index:hover{
+     color: #00FFFF;
+     
+}
+.first_button_on_index:focus{
+    outline:none;
+}
+.buy_button {
+    border: none;
+    width: 40%;
+    background-color: white;
+    outline: none;
+    border: none;
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-color: black;
+    background-color: white;
+    position: relative;
+    right: -60px
+}
+
+.detail_button {
+    border: none;
+    width: 40%;
+    background-color: white;
+    outline: none;
+    position: relative;
+    right: -60px;
+}
+.buy_button:hover {
+    color: #00FFFF
+}
+
+.buy_button:focus {
+    outline: none;
+}
+.detail_button:hover {
+    color: #00FFFF
+}
+
+.detail_button:focus {
+    outline: none;
+}
+
+.clickable_image {
+    border: none;
+    background-color: white;
+}.clickable_image:focus{
+     outline:none;
+ }
+
+#first {
+    background: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px #999;
+    margin-bottom:20px;
+}
+
+
+
+
+#second {
+    width:100%;
+    float: left;
+    height: 100%;
+    background: white
+}
+
+.imagerows {
+    
+    padding: 5px;
+    box-shadow: 0 1px #999;
+    margin-bottom:10px;
+    
+}
+.imagerows:hover {
+    box-shadow: 0 1px 1px #999;
+}
+
+.Column {
+    display: table-cell;
+    width : 300px;
+}
+
+.options{
+    margin-top:20px;
+}
+.Column2 {
+    display: table-cell;
+    width: 500px;
+}
+.opinion_table {
+    border: 0.5px solid grey;
+}
+#profile_td {
+    width: 20%;
+    height: 10%;
+    border-right: 0.5px solid grey;
+    background-color:lightgray;
+}
+.heading_tr{
+    height:60px;
+    background-color:lightgrey;
+}
+
+#reviews_th {
+    width: 95%;
+    
+    border-top: 0.5px solid grey;
+    border-left: 0.5px solid grey;
+    border-bottom: 0.5px solid grey;
+}
+#sort_button_th {
+    width: 500px;
+    border-top: 0.5px solid grey;
+    border-right: 0.5px solid grey;
+    border-bottom: 0.5px solid grey;
+}
+#sort_button{
+    position:relative;
+    top:15px;
+    left:5px;
+    
+}
+
+.LeftDetailsDiv {
+    display: table-cell;
+    width: 500px;
+    margin-bottom:50%;
+}
+.RightDetailsDiv {
+    display: table-cell;
+    width: 620px;
+}
+.Brand_row {
+    border: 0.5px solid grey;
+    background-color:lightgray;
+}
+.Colour_row {
+    border: 0.5px solid grey;
+}
+
+.row_first__th {
+    border-right: 0.5px solid grey;
+    width: 240px;
+    font-weight: normal;
+}
+.row_second__th {
+    border-right: 0.5px solid grey;
+    width: 240px;
+    font-weight: normal;
+}
+
+.Step_Div {
+    display: table-cell;
+    width: 3%;
+    margin-right:20px;
+    height:30px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:dimgrey;
+}
+
+.Step_Div_2 {
+    display: table-cell;
+    width: 30px;
+    margin-right: 20px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: dimgrey;
+}
+.Description_Div {
+    display: table-cell;
+    width: 20%;
+    font-size: 17px;
+    font-weight: bold;
+    position:relative;
+    top:15px;
+}
+
+#Submit_Button{
+    position :relative;
+    left: 47%;
+}
+.Description_Div_2 {
+    display: table-cell;
+    width: 95%;
+    font-weight: bold;
+    position: relative;
+    left: 15px;
+}
+.Submit_Div {
+    margin-top: 20px;
+}
+.Form_Class{
+    width: 50%;
+    margin:0px;
+    display:inline;
+}
+.Content_Div {
+    display: table-cell;
+    width: 70%;
+    position: relative;
+    top: 15px;
+}
+.Rating_div{
+    height:60px;
+    background-color:lightgray;
+
+}
+#Text_Area{
+    width:80%;
+    margin-left:10%;
+
+}
+.Review_Div{
+    margin-top:20px;
+    height:200px;
+    background-color:lightgray;
+}
+#p_style{
+    position:relative;
+    top:-90px;
+}
+#p_style_2 {
+    position: relative;
+    top: -50px;
+}
+#p_style_3 {
+    position: relative;
+    top: -50px;
+    right: -90px;
+    font-size: 30px;
+}
+#p_style_4 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+#p_style_5{
+    font-weight:bold;
+}
+#p_stlye_6 {
+    position: relative;
+    top:15px;
+}
+#p_style_7{
+    width:20%;
+    margin-right:-20%;
+}
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 7%;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-right: 0.5px solid grey;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+  .sidenav button {
+       font-size: 18px;
+        }
+}
+.sidenav button {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    width:100%;
+    text-align:center;
+}
+
+.log_table {
+    margin: 0 auto;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.log_row {
+    height: 36px;
+    border-bottom: 1px solid black;
+}
+
+#userid_th {
+    width: 8%;
+    border-right: 1px solid black;
+    text-align: center;
+}
+
+#activity_th {
+    width: 62%;
+    border-right: 1px solid black;
+    text-align: center;
+}
+
+#time_th {
+    text-align: center;
+    width: 30%;
+}
+
+.logDiv {
+    margin-top: 30px;
+}
+
+
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}

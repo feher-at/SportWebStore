@@ -1,0 +1,44 @@
+﻿@model IEnumerable<SportWebStore.Models.Item>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+
+<div>
+    <h1 style="text-align:center">
+        Welcome to SportHard!
+    </h1>
+</div>
+<div id="first">
+    <h1 style="text-align:center">
+        Here is the first five best rated items!
+    </h1>
+</div>
+
+<div id="second">
+    @foreach (var item in Model)
+    {
+        <div class="imagerows">
+            <div class="Column">
+                <button class="clickable_image"><img width="250" src=@Url.Content(item.ItemSource) /></button>
+            </div>
+            <div class="Column2">
+                <p style="position:relative;top:-90px">Rating: @item.Rating</p>
+                <p style="position:relative;top:-90px">Type: @item.ItemType</p>
+                <p style="position:relative;top:-50px">@item.ItemDescription</p>
+            </div>
+            <div class="Column">
+                <p style="position:relative;top:-90px;right:-90px; font-size:30px">@item.ItemPriece FT</p>
+                <form method="post" class="Form_Class">
+                    <button class="detail_button" style="position:relative;right:-60px" name="ItemID" value="@item.ItemID">Details</button>
+                </form>
+                <button class="buy_button" style="position:relative;right:-60px">Buy</button>
+            </div>
+
+
+
+        </div>
+    }
+
+</div>

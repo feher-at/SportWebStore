@@ -1,0 +1,37 @@
+﻿@model SportWebStore.Models.Item
+@{
+    ViewData["Title"] = "Details";
+}
+
+    <head>
+        <script src="~/js/Details.js">
+
+        </script>
+    </head>
+
+    <div class="imagerows">
+        <div class="Column">
+            <button class="clickable_image"><img width="250" src=@Url.Content(Model.ItemSource) /></button>
+        </div>
+        <div class="Column2">
+            <p style="position:relative;top:-90px;font-family:Arial;font-weight: bold;font-size:25px">Name:Here will be the item name,if i won't be too lazy</p>
+            <p style="position:relative;top:-90px">Rating: @Model.Rating</p>
+            <p style="position:relative;top:-90px; font-size:25px">@Model.ItemPriece FT</p>
+            
+        </div>
+        <div class="Column">
+            
+            <button class="detail_button" style="position:relative;right:-60px">Buy</button>
+        </div>
+    </div>
+    <div style="display:inline">
+
+        <button class="description_button" id="Description_button" value="@Model.ItemID" onclick="SelectItem()">Item Description</button>
+        <button class="comment_button" id="Comment_button" value="@Model.ItemID" onclick="CreatingOpinions()">Reviews</button>
+        <button class="new_review_button" onclick="CreateNewReview()">Write review</button>
+        <input type="hidden" id="Details_id" value="@Model.ItemID" />
+    </div>
+    
+        
+    
+    <div id ="OptionsDiv" class="options"></div>

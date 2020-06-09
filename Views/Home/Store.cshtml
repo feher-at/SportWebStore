@@ -1,0 +1,74 @@
+﻿@model SportWebStore.Models.ItemsWithBrandAndType
+
+
+@{
+    ViewData["Title"] = "Store";
+}
+<head>
+    <script src ="~/js/site.js">
+
+    </script>
+</head>
+
+<div style="display:inline-block" width="50%">
+    <select id="DdlType">
+        <option value="0">MainTypes</option>
+       @foreach(var mainType in Model.MainTypes)
+       {
+           <option value="@mainType.MainTagID">@mainType.MainTagName</option>
+       }
+
+    </select>
+    <select id="DdlBrand">
+        <option value="0">Brands</option>
+        @foreach (var brand in Model.Brands)
+        {
+            <option value="@brand.BrandID">@brand.BrandName</option>
+        }
+    </select>
+    <select id="DdlItemType">
+        <option value="0">Types</option>
+        @foreach (var type in Model.ItemTypes)
+        {
+            <option value="@type.ItemID">@type.ItemTypeName</option>
+        }
+    </select>
+    <button onclick="SelectValue()" >Search</button>
+</div>
+
+
+
+
+
+<div id="second">
+    @foreach (var item in Model.Items)
+    {
+        <div class="imagerows">
+            <div class="Column">
+                <button class="clickable_image"><img width="250" src=@Url.Content(item.ItemSource) /></button>
+            </div>
+            <div class="Column2">
+                <p id="p_style">Rating: @item.Rating</p>
+                <p id="p_style">Type: @item.ItemType</p>
+                <p id="p_style_2">@item.ItemDescription</p>
+            </div>
+            <div class="Column">
+                <p id="p_style_3">@item.ItemPriece FT</p>
+                <form method="post" class="Form_Class">
+
+                    <button class="detail_button" name="ItemID" value="@item.ItemID" >Details</button>
+
+                </form>
+                <button class="buy_button">Buy</button>
+            </div>
+
+
+
+        </div>
+    }
+
+</div>
+
+
+
+

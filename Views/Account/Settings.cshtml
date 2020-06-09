@@ -1,0 +1,18 @@
+﻿@model SportWebStore.Models.User
+@{
+    ViewData["Title"] = "Settings";
+}
+<head>
+    <script src="~/js/Settings.js"></script>
+</head>
+
+<div class="sidenav">
+   <button onclick="GetAllActiviti()">Log</button>
+</div>
+<div>
+    <h1 style="text-align:center">
+        Welcome Admin!(@Model.UserName)
+    </h1>
+</div>
+<div class="logDiv" id="logDiv"></div>
+
